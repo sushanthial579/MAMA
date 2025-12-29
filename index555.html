@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LETTER FOR MINE MAMA</title>
+
+<!-- Smooth Readable Font -->
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(to bottom, #ffe6f0, #fff);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Centered Card */
+.container {
+    max-width: 420px;
+    margin: auto;
+    background: white;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+    color: #ff4d88;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #ff4d88;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff1a66;
+}
+
+/* Hint + Error */
+.hint {
+    font-size: 13px;
+    color: #666;
+    margin-top: 8px;
+}
+.error {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Letter Page */
+.letter {
+    display: none;
+}
+.letter p {
+    text-align: left;
+    line-height: 1.7;
+    font-size: 15px;
+    color: #333;
+}
+
+/* Music Button */
+.music-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ff4d88;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 18px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    z-index: 1000;
+    display: none;
+}
+
+/* Heart Animation */
+.heart {
+    position: fixed;
+    bottom: 0;
+    animation: floatUp 6s linear forwards;
+    color: #ff4d88;
+    z-index: 0;
+}
+
+@keyframes floatUp {
+    from {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-100vh) scale(1.6);
+        opacity: 0;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- LOCK PAGE -->
+<div class="container" id="lockPage">
+    <h1>LETTER FOR MINE MAMA ❤️</h1>
+    <input type="password" id="password" placeholder="Enter Password">
+    <button onclick="checkPassword()">Unlock Letter</button>
+    <div class="hint">PASSWORD IS MY MUMMY NAME IN CAPITAL</div>
+    <div class="error" id="errorMsg"></div>
+</div>
+
+<!-- LETTER PAGE -->
+<div class="container letter" id="letterPage">
+    <h2>MINE LOVE MAMA ❤️</h2>
+    <p>
+        My dearest love😘 Mama,<br>
+        Dekhu dekhu e year bhi complete heijiba HMM " HAPPY NEW YEAR MINE LOVE😘" ete dina hela wait karichhi bass gote hope re tama saha basi , hata dhari bahut sara katha habara ,Mosaha katha haba stop kala dina thu kemti rahichhi,ତୁମକୁ କେତେ ମନେ ପକାଉଛି, ମୁଁ ଶବ୍ଦରେ EXPRESS କରିପାରୁନାହିଁ। kete addicted heichhi😞 .I know ki tame bhi mate karuthiba 🥰. As I sit here alone, the weight of your absence presses upon my heart like a storm cloud that refuses to lift. Every moment without you feels like an eternity, a cruel void that echoes with the silence of your laughter, the warmth of your touch, and the light of your smile. I miss you more than words can capture—it's a grief that consumes me, a longing that twists my soul and leaves me breathless, yearning for the day we can be together again.<br><br>
+        You've been so dedicated to your 12th examination preparation, pouring your heart into your studies, and I admire you endlessly for it. But oh, how it pains me to be apart, to watch the days slip by without holding you close, without whispering sweet nothings into your ear, without feeling the rhythm of your heartbeat against mine. My love for you is not just a fleeting emotion; it's a profound, unbreakable bond that defines me. You are my everything—MAMA, mymuse, my anchor, my forever. Without you, the world feels dim and colourless, a canvas waiting for your vibrant presence to bring it to life.<br><br>
+
+        I dream of you every night, of reuniting and erasing this distance that tears at my insides. Come back to me soon, my love. Until then, know that my heart beats only for you, filled with a love so deep it aches, so true it heals all wounds.<br><br>
+
+            I know you are preparing for your 12th board exams, and I am proud of you more than words can say. Your dreams, your hard work, your strength — they all inspire me. That is why I stay silent sometimes, even when I want to talk to you every day. My silence is not distance; it is care. It is my way of standing beside you without becoming a burden.<br><br>
+
+        "ଯଦି ତୁମେ ବୁଝିପାରୁନାହଁ ତେବେ ଦୟାକରି ମୋ letter ku ଅଣଦେଖା କରନାହିଁ। ମୋ letter ପଢିବା ପରେ ମୋତେ ଫୋନ୍ କର ଯାହା ଦ୍ଵାରା ମୁଁ ଜାଣିପାରିବି ଯେ ତୁମେ ମୋ ଭାବନା ବୁଝିଛ।"<br>
+        
+        "𝖠𝖫𝖫 𝖳𝖧𝖤 𝖡𝖤𝖲𝖳 𝖥𝖮𝖱 𝖸𝖮𝖴R 𝖤𝖷𝖠𝖬𝖲 👍🏻 𝖨 𝖪𝖭𝖮𝖶 𝖸𝖮𝖴'𝖫𝖫 𝖯𝖴𝖳 𝖸𝖮𝖴𝖱 𝖡𝖤𝖲𝖳 𝖥𝖮𝖮𝖳 𝖥𝖮𝖱𝖶𝖠𝖱𝖣"<br>
+        Forever yours, with all my love and longing,<br>
+        LOVE YOU🥰😘<br>
+                  <h2>YOURS MAMA (Sushant🎀)</h2>
+
+    </p>
+</div>
+
+<!-- MUSIC BUTTON -->
+<button class="music-btn" id="musicBtn" onclick="toggleMusic()">⏸ Pause Music</button>
+
+<!-- BACKGROUND MUSIC -->
+<audio id="bgMusic" loop>
+    <source src="mama.mp3" type="audio/mpeg">
+</audio>
+
+<!-- SCRIPT -->
+<script>
+let heartInterval;
+let isPlaying = true;
+
+function checkPassword() {
+    const pwd = document.getElementById("password").value;
+    const error = document.getElementById("errorMsg");
+    const music = document.getElementById("bgMusic");
+
+    if (pwd === "PRAMILA") {
+        document.getElementById("lockPage").style.display = "none";
+        document.getElementById("letterPage").style.display = "block";
+        document.getElementById("musicBtn").style.display = "block";
+
+        music.volume = 0;
+        music.play();
+        fadeIn(music);
+        startHearts();
+    } else {
+        error.textContent = "ENTER CORRECT PASSWORD MY LOVE";
+    }
+}
+
+function fadeIn(music) {
+    let vol = 0;
+    const fade = setInterval(() => {
+        if (vol < 0.5) {
+            vol += 0.02;
+            music.volume = vol;
+        } else {
+            clearInterval(fade);
+        }
+    }, 200);
+}
+
+function toggleMusic() {
+    const music = document.getElementById("bgMusic");
+    const btn = document.getElementById("musicBtn");
+
+    if (music.paused) {
+        music.play();
+        btn.innerHTML = "⏸ Pause Music";
+        startHearts();
+    } else {
+        music.pause();
+        btn.innerHTML = "▶ Play Music";
+        stopHearts();
+    }
+}
+
+function startHearts() {
+    stopHearts();
+    heartInterval = setInterval(createHeart, 500);
+}
+
+function stopHearts() {
+    clearInterval(heartInterval);
+}
+
+function createHeart() {
+    const heart = document.createElement("div");
+    heart.className = "heart";
+    heart.innerHTML = "💗";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = (16 + Math.random() * 20) + "px";
+    document.body.appendChild(heart);
+    setTimeout(() => heart.remove(), 6000);
+}
+</script>
+
+</body>
+</html>
